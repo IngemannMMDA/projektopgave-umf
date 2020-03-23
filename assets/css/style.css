@@ -16,10 +16,12 @@ body {
 }
 
 .grid-header { 
+	display: block;
 	grid-area: header;
-	background-color: red;
+	background-color: #000;
 	width: 100%;
 	height: 4vw; 
+	margin: 0;
 }
 .grid-main { 
 	grid-area: main;
@@ -42,3 +44,40 @@ body {
 	  'footer footer footer';
 	grid-gap: 0px;
   }
+
+  .navbar-logo-area {
+	  float: left;
+	  width: 15%;
+	  height: 4vw;
+	  padding: .7vw 0 0 1vw;
+  }
+
+  .navbar-logo > img {
+	  display: block;
+}
+
+.logo-responsive {
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navbar-btns {
+	font-size: 1.1vw;
+	color: #fff;
+	display: inline-block;
+	padding: 1.3vw 1vw 1.2vw 1vw;
+	max-width: 100%;
+    height: auto;
+	text-decoration: none;
+}
+
+. navbar-btns:hover {
+	background-color: #808080;
+	transition: .5s;
+}
