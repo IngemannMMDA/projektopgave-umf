@@ -15,9 +15,24 @@ body {
 	margin: 0;
 }
 
-.grid-header { grid-area: header; }
-.grid-main { grid-area: main; }
-.grid-footer { grid-area: main; }
+.grid-header { 
+	grid-area: header;
+	background-color: red;
+	width: 100%;
+	height: 4vw; 
+}
+.grid-main { 
+	grid-area: main;
+	background-color: blue;
+	width: 100%;
+	height: 40vw;
+}
+.grid-footer { 
+	grid-area: footer;
+	background-color: green;
+	width: 100%;
+	height: 8vw; 
+}
 
 .grid-container {
 	display: grid;
