@@ -14,3 +14,16 @@ html {
 body {
 	margin: 0;
 }
+
+.grid-header { grid-area: header; }
+.grid-main { grid-area: main; }
+.grid-footer { grid-area: main; }
+
+.grid-container {
+	display: grid;
+	grid-template-areas:
+	  'header header header'
+	  'menu main main'
+	  'footer footer footer';
+	grid-gap: 0px;
+  }
