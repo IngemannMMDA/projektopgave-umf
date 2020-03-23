@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+}
