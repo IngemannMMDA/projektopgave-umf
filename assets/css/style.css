@@ -1,6 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
 
+/* OBS. her bruges View Width (f.eks. 2vw) istedet for Pixels, så siden ændrer på indholdets størrelse når man justerer browserens størrelse */
+
 * {
 	box-sizing: border-box;
 }
@@ -10,6 +12,8 @@ html {
 	margin: 0;
 	padding: 0;
 }
+
+/* margin på både html og body er for at sikre at websiden anvender hele vinduet uden at der er White Spaces på siderne */
 
 body {
 	margin: 0;
@@ -62,7 +66,7 @@ body {
     height: auto;
 }
 
-nav {
+nav { /* flex bruges istedet for Float, float: right ændrer på rækkefølgen på nav buttons */
 	display: flex;
 	justify-content: flex-end;
 }
@@ -77,7 +81,7 @@ nav {
 	text-decoration: none;
 }
 
-. navbar-btns:hover {
-	background-color: #808080;
+.navbar-btns:hover {
+	background-color: #444444;
 	transition: .5s;
 }
