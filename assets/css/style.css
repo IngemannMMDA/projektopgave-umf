@@ -38,7 +38,7 @@ body {
 	display: grid;
 	grid-template-areas:
 	  'header header header'
-	  'menu main main'
+	  'main main main'
 	  'footer footer footer';
 	grid-gap: 0px;
   }
