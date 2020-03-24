@@ -29,15 +29,15 @@ body {
 }
 .grid-main { 
 	grid-area: main;
-	background-color: blue;
+	background-color: #000;
 	width: 100%;
-	height: 40vw;
+	height: auto;
 }
 .grid-footer { 
 	grid-area: footer;
 	background-color: green;
 	width: 100%;
-	height: 8vw; 
+	height: 8vw;
 }
 
 .grid-container {
@@ -84,4 +84,95 @@ nav { /* flex bruges istedet for Float, float: right ændrer på rækkefølgen p
 .navbar-btns:hover {
 	background-color: #444444;
 	transition: .5s;
+}
+
+.umf-box {
+	width: 40%;
+	height: 50%;
+	border-radius: 20px;
+	margin: 9.5vw auto auto auto;
+	text-align: center;
+}
+
+.top-h1-glow {
+	font-size: 3.5vw;
+	color: #fff;
+	margin: 2vw 0 0 0;
+	-webkit-animation: top-h1-glow 1s ease-in-out infinite alternate;
+  	-moz-animation: top-h1-glow 1s ease-in-out infinite alternate;
+  	animation: top-h1-glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes top-h1-glow {
+	from {
+	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+	}
+	to {
+	  text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+	}
+}
+
+.bottom-h1-glow {
+	font-size: 5.5vw;
+	color: #fff;
+	margin: 0;
+	text-shadow: 0 0 10px #3700ff;
+	-webkit-animation: bottom-h1-glow 1s ease-in-out infinite alternate;
+  	-moz-animation: bottom-h1-glow 1s ease-in-out infinite alternate;
+  	animation: bottom-h1-glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes bottom-h1-glow {
+	from {
+	  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #2a00e6, 0 0 40px #2a00e6, 0 0 50px #2a00e6, 0 0 60px #2a00e6, 0 0 70px #2a00e6;
+	}
+	to {
+	  text-shadow: 0 0 20px #fff, 0 0 30px #4d5fff, 0 0 40px #4d5fff, 0 0 50px #4d5fff, 0 0 60px #4d5fff, 0 0 70px #4d5fff, 0 0 80px #4d5fff;
+	}
+}
+
+.dato {
+	font-size: 1.3vw;
+	color: #fff;
+	margin: 2vw;
+}
+
+.mail-box {
+	background-color: #fff;
+	width: 65%;
+	height: auto;
+	margin: 8vw auto;
+	padding: .5vw 0 2vw 0;
+	text-align: center;
+}
+
+.mail-box h1 {
+	text-align: center;
+	font-weight: 500;
+}
+
+input[type=email] {
+	width: 75%;
+	height: 30%;
+	padding: 12px 20px;
+	margin: .8vw 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	width: 25%;
+	height: auto;
+	padding: 12px 20px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #b6b6b6;
+}
+
+input[value=Tilmeld] {
+	font-size: 1.2vw;
 }
