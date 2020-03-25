@@ -30,6 +30,7 @@ body {
 .grid-main { 
 	grid-area: main;
 	background-color: #000;
+	background: url('');
 	width: 100%;
 	height: auto;
 }
@@ -52,7 +53,7 @@ body {
   .navbar-logo-area {
 	  float: left;
 	  width: 15%;
-	  height: 4vw;
+	  height: 4vw; 
 	  padding: .7vw 0 0 1vw;
   }
 
@@ -90,7 +91,7 @@ nav { /* flex bruges istedet for Float, float: right ændrer på rækkefølgen p
 	width: 40%;
 	height: 50%;
 	border-radius: 20px;
-	margin: 9.5vw 0 auto 2vw;
+	margin: 9.5vw 0 auto 4vw;
 	text-align: left;
 }
 
