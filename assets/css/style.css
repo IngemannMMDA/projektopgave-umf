@@ -22,23 +22,31 @@ body {
 .grid-header { 
 	display: block;
 	grid-area: header;
-	background-color: #000;
+	background-color: #1d1d1d;
 	width: 100%;
 	height: 4vw; 
 	margin: 0;
 }
 .grid-main { 
+	display: block;
 	grid-area: main;
 	background-color: #000;
-	background: url('');
+	background: url('../images/stage-1.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 	width: 100%;
-	height: auto;
+	height: 60vw;
 }
 .grid-footer { 
+	display: block;
 	grid-area: footer;
-	background-color: green;
+	background-color: #1d1d1d;
+	color: #fff;
 	width: 100%;
-	height: 8vw;
+	height: auto;
+	padding-bottom: 1vw;
+	text-align: center;
 }
 
 .grid-container {
@@ -48,17 +56,17 @@ body {
 	  'main main main'
 	  'footer footer footer';
 	grid-gap: 0px;
-  }
+}
 
-  .navbar-logo-area {
-	  float: left;
-	  width: 15%;
-	  height: 4vw; 
-	  padding: .7vw 0 0 1vw;
-  }
+.navbar-logo-area {
+	float: left;
+	width: 15%;
+	height: 4vw; 
+	padding: .7vw 0 0 1vw;
+}
 
-  .navbar-logo > img {
-	  display: block;
+.navbar-logo > img {
+	display: block;
 }
 
 .logo-responsive {
@@ -89,67 +97,80 @@ nav { /* flex bruges istedet for Float, float: right ændrer på rækkefølgen p
 
 .umf-box {
 	width: 40%;
-	height: 50%;
+	height: auto;
 	border-radius: 20px;
-	margin: 9.5vw 0 auto 4vw;
+	margin: 9.5vw 0 0 4vw;
 	text-align: left;
 }
 
+hr {
+	width: 100%;
+	height: 2px;
+	background-color: #d203f3;
+}
+
 .top-h1 {
-	font-family: 'loveloblack';
-	font-size: 3.5vw;
-	color: #fff;
+	font-size: 5.5vw;
+	text-shadow: 3.5px 3.5px .5px #fff;
+	color: #5EDDF6;
 	margin: 2vw 0 0 0;
 }
 
 .bottom-h1 {
-	font-size: 5.5vw;
-	color: #fff;
+	font-size: 3.5vw;
+	color: #5EDDF6;
+	text-shadow: 3.5px 3.5px .5px #fff;
 	margin: 0;
 }
 
 .dato {
 	font-size: 1.3vw;
 	color: #fff;
-	margin: 2vw 0 0 0;
+	margin: 1vw 0 0 0;
 }
 
-.mail-box {
-	background-color: #fff;
-	width: 65%;
+.tilmeld-box {
+	width: 20%;
 	height: auto;
-	margin: 8vw auto;
-	padding: .5vw 0 2vw 0;
-	text-align: center;
-}
-
-.mail-box h1 {
-	text-align: center;
-	font-weight: 500;
-}
-
-input[type=email] {
-	width: 75%;
-	height: 30%;
-	padding: 12px 20px;
-	margin: .8vw 0;
-	display: inline-block;
-	border: 1px solid #ccc;
-	border-radius: 4px;
-	box-sizing: border-box;
-}
-
-input[type=submit] {
-	width: 25%;
-	height: auto;
-	padding: 12px 20px;
+	background-color: #d203f3;
+	color: #fff;
+	margin: 3vw 0 0 4vw;
 	cursor: pointer;
+	box-shadow: 3px 3px #fff;
+	transition: all .1s linear;
 }
 
-input[type=submit]:hover {
-	background-color: #b6b6b6;
+.tilmeld-box:hover {
+	background-color: #9600ad;
 }
 
-input[value=Tilmeld] {
-	font-size: 1.2vw;
+.tilmeld-box:active {
+	background-color: #9600ad;
+	box-shadow: 0px 0px #fff;
+}
+
+.tilmeld {
+	font-size: 2vw;
+	text-align: center;
+	padding: 1vw 0;
+}
+
+.footer-logo {
+	display: block;
+	max-width: 15%;
+	margin: 1vw auto 1vw auto;
+}
+
+.adresse-footer {
+	display: block;
+	margin: 0;
+	line-height: 1.5vw;
+}
+
+.bottom-icons {
+    color: #fff;
+	font-size: 2vw;
+	margin: 1vw 1.5vw 1vw 1.5vw;
+    text-decoration-line: none;
+    justify-content: space-between;
 }
