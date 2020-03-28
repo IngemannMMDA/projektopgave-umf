@@ -28,7 +28,7 @@ body {
 	grid-area: main;
 	background-color: #000;
 	width: 100%;
-	height: 60vw;
+	height: auto;
 }
 .grid-footer { 
 	display: block;
@@ -87,7 +87,21 @@ nav {
 	transition: .5s;
 }
 
+.container {
+	width: 100%;
+	height: auto;
+	padding: 1vw;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
 
+.item {
+	margin: 1vw;
+	width: 45%;
+	height: 25%;
+	border: 4px solid #fff;
+}
 
 .footer-logo {
 	display: block;
