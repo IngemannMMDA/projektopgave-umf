@@ -1,8 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* OBS. her bruges View Width (f.eks. 2vw) istedet for Pixels, så siden ændrer på indholdets størrelse når man justerer browserens størrelse */
-
 * {
 	box-sizing: border-box;
 }
@@ -12,8 +10,6 @@ html {
 	margin: 0;
 	padding: 0;
 }
-
-/* margin på både html og body er for at sikre at websiden anvender hele vinduet uden at der er White Spaces på siderne */
 
 body {
 	margin: 0;
@@ -31,10 +27,6 @@ body {
 	display: block;
 	grid-area: main;
 	background-color: #000;
-	background: url('../images/stage-1.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 	width: 100%;
 	height: 60vw;
 }
@@ -75,7 +67,7 @@ body {
     height: auto;
 }
 
-nav { /* flex bruges istedet for Float, float: right ændrer på rækkefølgen på nav buttons */
+nav {
 	display: flex;
 	justify-content: flex-end;
 }
@@ -95,61 +87,7 @@ nav { /* flex bruges istedet for Float, float: right ændrer på rækkefølgen p
 	transition: .5s;
 }
 
-.umf-box {
-	width: 40%;
-	height: auto;
-	border-radius: 20px;
-	margin: 9.5vw 0 0 4vw;
-	text-align: left;
-}
 
-.top-h1 {
-	font-size: 5.5vw;
-	color: #ADFF2F;
-	text-shadow: 3.5px 3.5px .5px #87b330;
-	margin: 2vw 0 0 0;
-}
-
-.bottom-h1 {
-	font-size: 3.5vw;
-	color: #ff91c8;
-	text-shadow: 3.5px 3.5px .5px #ff1493;
-	margin: 0;
-}
-
-.dato {
-	font-size: 1.3vw;
-	color: #fff;
-	margin: 1vw 0 0 0;
-}
-
-.tilmeld-box {
-	width: 20%;
-	height: auto;
-	background-color: #ba00d6;
-	color: #fff;
-	margin: 3vw 0 0 4vw;
-	cursor: pointer;
-	box-shadow: 6px 6px #9301aa;
-	transition: all .1s linear;
-}
-
-.tilmeld-box:hover {
-	background-color: #690079;
-	box-shadow: 6px 6px #9301aa;
-}
-
-.tilmeld-box:active {
-	background-color: #7a028d;
-	margin: 3.3vw 0 0 4.3vw;
-	box-shadow: 0px 0px #9301aa;
-}
-
-.tilmeld-p {
-	font-size: 2vw;
-	text-align: center;
-	padding: 1vw 0;
-}
 
 .footer-logo {
 	display: block;

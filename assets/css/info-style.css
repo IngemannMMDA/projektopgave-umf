@@ -1,8 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-/* OBS. her bruges View Width (f.eks. 2vw) istedet for Pixels, så siden ændrer på indholdets størrelse når man justerer browserens størrelse */
-
 * {
 	box-sizing: border-box;
 }
@@ -12,8 +10,6 @@ html {
 	margin: 0;
 	padding: 0;
 }
-
-/* margin på både html og body er for at sikre at websiden anvender hele vinduet uden at der er White Spaces på siderne */
 
 body {
 	margin: 0;
@@ -31,12 +27,8 @@ body {
 	display: block;
 	grid-area: main;
 	background-color: #000;
-	background: url('../images/stage-1.jpg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 	width: 100%;
-	height: 60vw;
+	height: auto;
 }
 .grid-footer { 
 	display: block;
@@ -75,7 +67,7 @@ body {
     height: auto;
 }
 
-nav { /* flex bruges istedet for Float, float: right ændrer på rækkefølgen på nav buttons */
+nav {
 	display: flex;
 	justify-content: flex-end;
 }
@@ -95,60 +87,82 @@ nav { /* flex bruges istedet for Float, float: right ændrer på rækkefølgen p
 	transition: .5s;
 }
 
-.umf-box {
-	width: 40%;
-	height: auto;
-	border-radius: 20px;
-	margin: 9.5vw 0 0 4vw;
-	text-align: left;
-}
-
-.top-h1 {
-	font-size: 5.5vw;
-	color: #ADFF2F;
-	text-shadow: 3.5px 3.5px .5px #87b330;
-	margin: 2vw 0 0 0;
-}
-
-.bottom-h1 {
-	font-size: 3.5vw;
-	color: #ff91c8;
-	text-shadow: 3.5px 3.5px .5px #ff1493;
-	margin: 0;
-}
-
-.dato {
-	font-size: 1.3vw;
+.om-umf-box {
+	display: block;
 	color: #fff;
-	margin: 1vw 0 0 0;
-}
-
-.tilmeld-box {
-	width: 20%;
+	float: left;
+	width: 50%;
 	height: auto;
-	background-color: #ba00d6;
+	margin: 4.5vw 0 5vw 0;
+	padding: 0 4vw 0 4vw;
+}
+
+.h1-info-umf-box {
+	font-size: 3vw;
+	font-weight: 500;
+}
+
+.p-info-umf-box {
+	font-size: 1vw;
+}
+
+.informationer {
+	width: 100%;
+	height: auto;
+}
+
+.informationer-venstre {
+	display: inline;
+	float: right;
 	color: #fff;
-	margin: 3vw 0 0 4vw;
-	cursor: pointer;
-	box-shadow: 6px 6px #9301aa;
-	transition: all .1s linear;
+	width: 50%;
+	height: auto;
+	margin: 9vw 0 0 0;
+	padding: 0 4vw 0 4vw;
 }
 
-.tilmeld-box:hover {
-	background-color: #690079;
-	box-shadow: 6px 6px #9301aa;
+.informationer-højre {
+	float: left;
+	color: #fff;
+	width: 50%;
+	height: auto;
+	margin: 0 0 0 0;
+	padding: 0 4vw 0 4vw;
 }
 
-.tilmeld-box:active {
-	background-color: #7a028d;
-	margin: 3.3vw 0 0 4.3vw;
-	box-shadow: 0px 0px #9301aa;
+.h2-informationer {
+	margin: 00 0 .5vw 0;
+	font-size: 1.2vw;
 }
 
-.tilmeld-p {
-	font-size: 2vw;
-	text-align: center;
-	padding: 1vw 0;
+.h3-informationer {
+	margin: 0 0 0 0;
+	font-size: 1.2vw;
+	font-weight: 600;
+}
+
+.p-informationer {
+	margin: 0 0 1.5vw 0;
+	font-size: 1vw;
+}
+
+.a-informationer {
+	color: #ba00d6;
+	text-decoration: none;
+}
+
+.img-info-umf-box {
+	float: right;
+	width: 50%;
+	height: auto;
+	margin: 6.5vw 0 0 0;
+	padding: 0 4vw 0 0;
+}
+
+iframe {
+	width: 45vw;
+	height: 28vw;
+	border: 0px;
 }
 
 .footer-logo {
