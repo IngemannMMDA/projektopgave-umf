@@ -91,7 +91,7 @@ nav { /* flex bruges istedet for Float, float: right ændrer på rækkefølgen p
 }
 
 .navbar-btns:hover {
-	background-color: #444444;
+	background-color: #ba00d6;
 	transition: .5s;
 }
 
