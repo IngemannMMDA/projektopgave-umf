@@ -28,7 +28,8 @@ body {
 	grid-area: main;
 	background-color: #000;
 	width: 100%;
-	height: 60vw;
+	height: auto;
+	padding: 4vw;
 }
 .grid-footer { 
 	display: block;
@@ -87,8 +88,57 @@ nav {
 	transition: .5s;
 }
 
+.tilmeldings-text-box {
+	display: block;
+	width: 50%;
+	height: auto;
+	float: left;
+	color: #fff;
+	font-size: 1vw;
+}
+
+.tilmelding-image {
+	width: 20%;
+	height: auto;
+	float: right;
+	margin: 0 7vw 0 0;
+}
+
 .tilmeldings-formular {
-	
+	width: 40%;
+	height: auto;
+	margin: 23vw 0 0 0;
+}
+
+.formular-header {
+	color: #fff;
+	font-size: 1vw;
+}
+
+#input-design {
+	width: 100%;
+	height: 3vw;
+	margin: 0.5vw 0;
+	font-size: 1.3vw;
+}
+
+#input-submit {
+	display: block;
+	width: 30%;
+	height: 3vw;
+	margin: 1vw auto 1vw auto;
+	border: 0;
+	cursor: pointer;
+}
+
+#input-submit:hover {
+	background-color: #3a3a3a;
+	color: #fff;
+}
+
+#input-submit:active {
+	background-color: #000;
+	color: #fff;
 }
 
 .footer-logo {
