@@ -107,12 +107,13 @@ nav {
 .tilmeldings-formular {
 	width: 40%;
 	height: auto;
-	margin: 23vw 0 0 0;
+	margin: 23vw 0 0 10vw;
 }
 
 .formular-header {
 	color: #fff;
 	font-size: 1vw;
+	text-align: center;
 }
 
 #input-design {
@@ -126,6 +127,7 @@ nav {
 	display: block;
 	width: 30%;
 	height: 3vw;
+	font-size: 1.2vw;
 	margin: 1vw auto 1vw auto;
 	border: 0;
 	cursor: pointer;
