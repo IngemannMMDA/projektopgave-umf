@@ -13,16 +13,22 @@ html {
 
 body {
 	margin: 0;
+	background-color: #000;
 }
 
-.grid-header { 
-	display: block;
-	grid-area: header;
-	background-color: #1d1d1d;
-	width: 100%;
-	height: 4vw; 
-	margin: 0;
+.grid-header {
+    display: block;
+    grid-area: header;
+    background-color: black;
+    width: 80%;
+    /* height: 4vw; */
+    margin: 0;
+    margin: auto;
+    margin-bottom: 3vw;
+    border-bottom: #7500A3 1px solid;
+    border-width: thick;
 }
+
 .grid-main { 
 	display: block;
 	grid-area: main;

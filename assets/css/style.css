@@ -33,6 +33,7 @@ body {
     border-bottom: #7500A3 1px solid;
     border-width: thick;
 }
+
 .grid-main { 
 	display: block;
 	grid-area: main;
