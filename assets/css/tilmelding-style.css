@@ -41,6 +41,8 @@ body {
 	grid-gap: 0px;
 }
 
+/* NavBar Styling */
+
 .navbar-logo-area {
 	float: left;
 	width: 15%;
@@ -77,6 +79,8 @@ nav {
 	background-color: #ba00d6;
 	transition: .5s;
 }
+
+/* Main/Body Styling */
 
 .tilmeldings-text-box {
 	display: block;

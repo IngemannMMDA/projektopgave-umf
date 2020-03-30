@@ -50,6 +50,8 @@ body {
 	width: 100%;
 }
 
+/* NavBar Styling */
+
 .navbar-logo-area {
 	float: left;
 	width: 15%;
@@ -60,6 +62,8 @@ body {
 .navbar-logo > img {
 	display: block;
 }
+
+/* Main/Body Styling */
 
 .logo-responsive {
 	display: block;

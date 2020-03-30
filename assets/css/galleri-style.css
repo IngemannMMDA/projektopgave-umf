@@ -40,6 +40,8 @@ body {
 	grid-gap: 0px;
 }
 
+/* NavBar Styling */
+
 .navbar-logo-area {
 	float: left;
 	width: 15%;
@@ -76,6 +78,8 @@ nav {
 	background-color: #ba00d6;
 	transition: .5s;
 }
+
+/* Main/Body Styling */
 
 .container {
 	width: 100%;
