@@ -125,13 +125,15 @@ nav {
 
 .h2-informationer {
 	margin: 00 0 .5vw 0;
-	font-size: 1.2vw;
+	font-size: 1.4vw;
+	font-weight: 600;
+	color: #7500a3;
 }
 
 .h3-informationer {
 	margin: 0 0 0 0;
 	font-size: 1.2vw;
-	font-weight: 600;
+	font-weight: 300;
 }
 
 .p-informationer {
@@ -140,9 +142,10 @@ nav {
 }
 
 .a-informationer {
-	color: #ba00d6;
+	color: #7500a3;
 	text-decoration: none;
 }
+
 
 .img-info-umf-box {
 	float: right;

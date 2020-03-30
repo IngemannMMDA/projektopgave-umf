@@ -13,6 +13,7 @@ html {
 	padding: 0;
 }
 
+
 /* margin på både html og body er for at sikre at websiden anvender hele vinduet uden at der er White Spaces på siderne */
 
 body {
@@ -227,7 +228,7 @@ footer {
 }
 
 .bottom-icons:hover {
-	color: #340348;
+	color: #7500A3;
 }
 
 
