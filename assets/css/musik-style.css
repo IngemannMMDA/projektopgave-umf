@@ -34,7 +34,7 @@ body {
 	grid-area: main;
 	background-color: #000;
 	width: 100%;
-	height: 60vw;
+	
 }
 
 .grid-container {
@@ -100,7 +100,7 @@ h1 {
 
 .grid-main img {
 	width: 1000px;
-	
+	padding: 20px;	
 }
 
 
@@ -116,7 +116,6 @@ footer {
 	border-top: #7500A3 1px solid;
 	border-width: thick;
 	margin-top: 10px;
-	position: absolute;
 	bottom: 0;
 	
 }
