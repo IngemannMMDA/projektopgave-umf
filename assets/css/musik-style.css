@@ -46,6 +46,7 @@ body {
 	grid-gap: 0px;
 	margin: auto;
 	width: 100%;
+	position: relative;
 }
 
 /* NavBar Styling */
@@ -97,6 +98,10 @@ h1 {
 	padding: 0 4vw 0 4vw;
 }
 
+.grid-main img {
+	width: 1000px;
+	
+}
 
 
 /* FOOOTER STYLING */
@@ -111,6 +116,9 @@ footer {
 	border-top: #7500A3 1px solid;
 	border-width: thick;
 	margin-top: 10px;
+	position: absolute;
+	bottom: 0;
+	
 }
 
 .footerBox {
