@@ -253,7 +253,7 @@ nav {
 
 .læs-mere-box:active {
 	background-color: #7500A3;
-	margin: 2.3vw 2.3vw 0vw 10vw;
+	margin: 2.3vw auto 0vw auto;
 }
 
 .læs-mere-p {

@@ -45,13 +45,15 @@ body {
 	  'main'
 	  'footer';
 	grid-gap: 0px;
+	margin: auto;
+	width: 100%;
 }
 
 /* NavBar Styling */
 
 .navbar-logo-area {
 	float: left;
-	width: 15%;
+	width: 22%;
 	height: 4vw; 
 	padding: .7vw 0 0 1vw;
 }
@@ -72,7 +74,7 @@ nav {
 }
 
 .navbar-btns {
-	font-size: 1.1vw;
+	font-size: 1.4vw;
 	color: #fff;
 	display: inline-block;
 	padding: 1.3vw 1vw 1.2vw 1vw;
@@ -87,6 +89,14 @@ nav {
 }
 
 /* Main/Body Styling */
+
+.side-navn {
+	font-size: 3vw;
+	font-weight: 500;
+	color: #C87BE7;
+	margin: 1vw 0 1vw 0;
+	padding: 0 0 0 0;
+}
 
 .tilmeldings-text-box {
 	display: block;
