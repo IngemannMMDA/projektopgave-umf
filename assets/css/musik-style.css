@@ -316,9 +316,27 @@ li h3 {
 		max-width: 425px;
 		height: auto;
 		margin: 0;
-		padding: 2vw 7vw 0 7vw;
+		/* padding: 2vw 7vw 0 7vw; */
 	}
 
+	input {
+		width: 26vw;
+		height: auto;
+		padding: 10px 21px;
+	}
+
+	.programContainer {
+		height: 300px;
+	}
+
+	h1 {
+		font-size: 6vw;
+	}
+
+	h2 {
+		font-size: 4vw;
+		padding: 9vw;
+	}
 	
 
 	/* Footer */
