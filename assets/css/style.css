@@ -360,3 +360,27 @@ li h3 {
     padding-left: 25px;
 }
 
+/* Mobile portrait, 4" to 6.9" screens */
+@media screen {min-width: 320px} and {max-width: 414px} {
+	
+}
+
+/* Mobile landscape, same, but landscape */
+@media screen {min-width: 568px} and {max-width: 812px} {
+
+}
+
+/* Tablet portrait, 7" to 10" screens */
+@media screen {min-width: 768px} and {max-width: 834px} {
+
+}
+
+/* Tablet landscape, 7" to 10" screens, but also 12" tablets on portrait */
+@media screen {min-width: 1024px} and {max-width: 1112px} {
+
+}
+
+/* Laptop & Desktop displays */
+@media screen {min-width: 1200px} {
+
+}
