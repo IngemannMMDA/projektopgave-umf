@@ -197,7 +197,6 @@ main {
 .bottom-boxes {
 	display: block;
 	width: 40vw;
-	height: 35.6vw;
 	background-color: #ddbfe2;
 	margin: 3vw auto 0 auto;
 }
@@ -293,7 +292,9 @@ footer {
 	width: 100%;
 	border-top: #7500A3 1px solid;
 	border-width: thick;
-	margin-top: 10px;
+	margin-top: 0px;
+	bottom: 0;
+	
 }
 
 .footerBox {
