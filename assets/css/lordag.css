@@ -13,9 +13,9 @@ h1, h2, h3 {
 a {
 	text-decoration: none;
 }
-a:visited {
-    color:#C87BE7;
-}
+h1 a:visited {
+    color: violet;
+    }
 
 html {
 	font-family: 'Open Sans', sans-serif;
@@ -139,6 +139,10 @@ input{
     cursor: pointer;
     transition: all .1s linear;
 }
+
+.lordagButton{
+    background-color: #340348;
+} 
 
 input:hover {
 	background-color: #340348;

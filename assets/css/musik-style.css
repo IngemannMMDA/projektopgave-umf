@@ -14,9 +14,10 @@ a {
 	text-decoration: none;
 }
 
-a:visited {
-    color:#C87BE7;
-}
+h1 a:visited {
+	color: violet;
+	}
+
 html {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
@@ -114,6 +115,8 @@ h1 {
 	color: #C87BE7;
 	text-align: center;
 }
+
+
 h2 {
 	color: white;
 	font-size: 2vw;
@@ -149,6 +152,8 @@ input{
 input:hover {
 	background-color: #340348;
 }
+
+
 
 
 
