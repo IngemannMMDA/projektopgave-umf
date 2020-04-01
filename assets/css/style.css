@@ -24,22 +24,11 @@ body {
 .grid-header {
     display: block;
     grid-area: header;
-    background-color: black;
-    width: 80%;
-    /* height: 4vw; */
-    margin: 0;
-    margin: auto;
-    margin-bottom: 3vw;
-    border-bottom: #7500A3 1px solid;
-    border-width: thick;
 }
 
 .grid-main { 
 	display: block;
 	grid-area: main;
-	background-color: #000;
-	width: 100%;
-	height: auto;
 }
 
 .grid-container {
@@ -54,6 +43,17 @@ body {
 }
 
 /* NavBar Styling */
+
+header {
+	background-color: black;
+    width: 80%;
+    /* height: 4vw; */
+    margin: 0;
+    margin: auto;
+    margin-bottom: 3vw;
+    border-bottom: #7500A3 1px solid;
+    border-width: thick;
+}
 
 .navbar-logo-area {
     float: left;
@@ -97,6 +97,12 @@ nav {
 }
 
 /* Main/Body Styling */
+
+main {
+	background-color: #000;
+	width: 100%;
+	height: auto;
+}
 
 .hero-img {
 	background: url('../images/stage-1.jpg');
