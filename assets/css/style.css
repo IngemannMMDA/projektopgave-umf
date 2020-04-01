@@ -186,21 +186,14 @@ main {
 	margin: 0 0 2vw 0;
 }
 
-.top-boxes {
+.boxes {
 	display: block;
 	width: 40vw;
-	height: 47vw;
+	height: 41vw;
 	background-color: #ddbfe2;
 	margin: 3vw auto 0 auto;
 }
 
-.bottom-boxes {
-	display: block;
-	width: 40vw;
-	height: 55vw;
-	background-color: #ddbfe2;
-	margin: 3vw auto 0 auto;
-}
 
 .box-img {
 	width: 100%;
