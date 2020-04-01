@@ -4,10 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale = 1.0">
 <title>Ungdomsringen</title>
-<link href="../css/galleri-style.css" rel="stylesheet" type="text/css">
+<link href="../css/lineup.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700-Shadows+Into+Light-Lora" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" href="https://www.ungdomsringen.dk/files/templates/designs/ungdomsringen/img/favicon.ico">
 <script src="https://kit.fontawesome.com/35987d7a34.js" crossorigin="anonymous"></script>
+<script src="../js/script.js" defer> </script>
 </head>
 
 <body>
@@ -32,23 +33,23 @@
         <!-- Main/Body Start -->
         <div class="grid-main">
             <main>
-                <h1>Galleri</h1>
-                <div class="container">
-                    <div class="item billede-1" src="../images/stage-1.jpg"></div>
-                    <div class="item billede-2" src="../images/stage-2.jpg"></div>
-                    <div class="item billede-3" src="../images/stage-3.jpg"></div>
-                    <div class="item billede-4" src="../images/stage-4.jpg"></div>
-                    <div class="item billede-5" src="../images/stage-5.jpg"></div>
-                    <div class="item billede-6" src="../images/stage-6.jpg"></div>
-                    <div class="item billede-7" src="../images/stage-7.jpg"></div>
-                    <div class="item billede-8" src="../images/stage-8.jpg"></div>
-                    <div class="item billede-9" src="../images/group-of-people-bw.jpg"></div>
-                    <div class="item billede-10" src="../images/stage-bw-1.jpg"></div>
-                    <div class="item billede-11" src="../images/stage-bw-2.jpg"></div>
-                    <div class="item billede-12" src="../images/stage-bw-3.jpg"></div>
-                    <div class="item billede-13" src="../images/group-of-people-2.jpg"></div>
-                    <div class="item billede-14" src="../images/group-of-people-3.jpg"></div>
+                <h1><a href="musik-index.html"> Musik </a></h1>
+                <form action="">
+                    <input type="button" value="Fredag" onclick="window.location.href='fredag.html';"/>
+                    <input type="button" value="Lørdag"  onclick="window.location.href='lordag.html';"/>
+                    <input type="button" value="Line-up" class="lineupButton" onclick="window.location.href='lineup.html';"/>
+               </form>
+                <div class="programContainer">
+                <div class="lordag">
+                <img src="" alt="line-up" id="line_up"></div>
                 </div>
+                
+              <!-- <div class="bands"> virker ikke som det skal
+                <div id="band_navn"></div> 
+                <div id="genre"></div>
+                <div id="medlemmer"></div>
+                </div> -->
+        
             </main>
         </div>
         <!-- Main/Body Slut -->
