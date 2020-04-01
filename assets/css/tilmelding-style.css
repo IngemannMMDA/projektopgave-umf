@@ -97,15 +97,15 @@ main {
 	background-color: #000;
 	width: 100%;
 	height: auto;
-	padding: 4vw;
+	margin: auto;
 }
 
-.side-navn {
+h1 {
 	font-size: 3vw;
 	font-weight: 500;
 	color: #C87BE7;
-	margin: 1vw 0 1vw 0;
-	padding: 0 0 0 0;
+	margin: 1.5vw 0 1vw 0;
+	padding: 0 4vw 0 4vw;
 }
 
 .tilmeldings-text-box {
@@ -113,6 +113,7 @@ main {
 	width: 50%;
 	height: auto;
 	float: left;
+	margin-left: 4vw;
 	color: #fff;
 	font-size: 1.3vw;
 }
@@ -127,7 +128,8 @@ main {
 .tilmeldings-formular {
 	width: 50%;
 	height: auto;
-	margin: 14vw 0 0 0vw;
+	margin: 14vw 0 0 4vw;
+	margin-bottom: 4vw;
 }
 
 fieldset {
