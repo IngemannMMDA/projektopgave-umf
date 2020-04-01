@@ -189,7 +189,6 @@ main {
 .top-boxes {
 	display: block;
 	width: 40vw;
-	height: 37vw;
 	background-color: #ddbfe2;
 	margin: 3vw auto 0 auto;
 }
@@ -201,6 +200,35 @@ main {
 	margin: 3vw auto 0 auto;
 }
 
+.top-boxes, button {
+	text-align: center;
+}
+
+.bottom-boxes, button {
+	text-align: center;
+}
+
+button{
+	width: 15vw;
+    height: auto;
+    background-color: #7500A3;
+	color: #fff;
+	padding: 15px 32px;
+	font-size: 16px;
+	border: none;
+	margin-top: 1vw;
+	margin-bottom: 1vw;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+button:hover {
+	background-color: #340348;
+}
+button:active {
+	background-color: #7500A3;
+	margin: 1.3vw auto 0vw auto;
+}
 
 .box-img {
 	width: 100%;
@@ -249,6 +277,7 @@ main {
 	height: auto;
 	padding: 0 0 0 2vw;
 	font-size: 1vw;
+	text-align: left;
 }
 
 .læs-mere-box {
