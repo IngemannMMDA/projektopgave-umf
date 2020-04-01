@@ -1,0 +1,303 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+h1 a:visited {
+    color: #C87BE7;
+    }
+
+html {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	background-color: #000;
+}
+
+.grid-header {
+    display: block;
+    grid-area: header;
+}
+
+.grid-main { 
+	display: block;
+	grid-area: main;
+	
+}
+
+.grid-container {
+	display: grid;
+	grid-template-areas:
+	  'header'
+	  'main'
+	  'footer';
+	grid-gap: 0px;
+	margin: auto;
+	width: 100%;
+	position: relative;
+}
+
+/* NavBar Styling */
+
+header {
+	background-color: black;
+    width: 80%;
+    /* height: 4vw; */
+    margin: 0;
+    margin: auto;
+    margin-bottom: 3vw;
+    border-bottom: #7500A3 1px solid;
+    border-width: thick;
+}
+
+.navbar-logo-area {
+	float: left;
+	width: 22%;
+	height: 4vw; 
+	padding: .7vw 0 0 1vw;
+}
+
+.navbar-logo > img {
+	display: block;
+}
+
+.logo-responsive {
+	display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+}
+.navItem2 {
+	background-color: #340348;
+}
+
+.navbar-btns {
+	font-size: 1.4vw;
+	color: #fff;
+	display: inline-block;
+	padding: 1.3vw 1vw 1.2vw 1vw;
+	max-width: 100%;
+    height: auto;
+	text-decoration: none;
+}
+
+.navbar-btns:hover {
+	background-color: #ba00d6;
+	transition: .5s;
+}
+
+/* Main/Body Styling */
+
+main {
+	background-color: #000;
+	width: 100%;
+}
+
+h1 {
+	font-size: 3vw;
+	font-weight: 500;
+	color: #C87BE7;
+	text-align: center;
+}
+
+.programContainer {
+	background: linear-gradient(#00000080, #00000080), url(../images/group-of-people-1.jpg) center center/cover no-repeat;
+	display: grid;
+	grid-template-areas: 'lørdag';
+    color: white;
+    
+}
+
+form {
+	text-align: center;
+}
+
+input{
+	width: 15vw;
+    height: auto;
+    background-color: #7500A3;
+	color: #fff;
+	padding: 15px 32px;
+	font-size: 16px;
+	border: none;
+    margin: 1vw 0.5vw 1vw 0.5vw;
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.lineupButton{
+    background-color: #340348;
+} 
+
+input:hover {
+	background-color: #340348;
+}
+
+.lordag {
+	grid-area: lørdag;
+	padding: 2px;
+	text-align: center;
+}
+
+#program_lordag {
+	width: 1100px;
+	padding: 2vw;
+}
+
+.bands {
+	background-color: violet;
+}
+
+/* virker ikke som det skal
+#band_navn {
+	color: white;
+}
+
+#genre {
+	color: white;
+}
+
+#medlemmer {
+	color: white;
+}
+
+#navn {
+	color: whitesmoke;
+} */
+
+
+/* FOOOTER STYLING */
+
+footer {
+    display: grid;
+	grid-template-areas: 'adresse image1 image2 image3 image4 image5 socialmedia';
+    background-color: #000000;
+	padding: 0;
+	color: white;
+	width: 100%;
+	border-top: #7500A3 1px solid;
+	border-width: thick;
+	margin-top: 0px;
+	bottom: 0;
+}
+
+.footerBox {
+    background-color: #000000;
+	padding: 1vw;
+	align-self: center;
+}
+
+.footerBox ul li {
+    padding: 0.2vw;
+}
+
+.footerBox a {
+    color: #fff;
+}
+
+.footerOne {
+    justify-self: center;
+	grid-area: adresse;
+}
+
+.footerTwo{
+    justify-self: center;
+	grid-area: image1;
+}
+.footerThree{
+    justify-self: center;
+	grid-area: image2;
+}
+.footerFour{
+    justify-self: center;
+	grid-area: image3;
+}
+.footerFive{
+    justify-self: center;
+	grid-area: image4;
+}
+
+.footerSix {
+    justify-self: center;
+	grid-area: image5;
+}
+
+.footerSeven {
+    justify-self: center;
+	grid-area: socialmedia;
+}
+
+
+.bottom-icons {
+	text-decoration: none;
+	font-size: 3vw;
+}
+
+.bottom-icons:hover {
+	color: #690079;
+}
+
+
+ul, li {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+li h3 {
+	font-size: 2vw;
+	margin: 0;
+}
+
+.fa-instagram:before {
+    content: "\f16d";
+    padding-left: 25px;
+}
+
+.fa-facebook:before {
+    content: "\f16d";
+    padding-left: 25px;
+}
+
+/* Mobile portrait, 4" to 6.9" screens */
+@media screen {min-width: 320px} and {max-width: 414px} {
+	
+}
+
+/* Mobile landscape, same, but landscape */
+@media screen {min-width: 568px} and {max-width: 812px} {
+
+}
+
+/* Tablet portrait, 7" to 10" screens */
+@media screen {min-width: 768px} and {max-width: 834px} {
+
+}
+
+/* Tablet landscape, 7" to 10" screens, but also 12" tablets on portrait */
+@media screen {min-width: 1024px} and {max-width: 1112px} {
+
+}
+
+/* Laptop & Desktop displays */
+@media screen {min-width: 1200px} {
+
+}
