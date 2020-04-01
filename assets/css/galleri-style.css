@@ -113,10 +113,108 @@ h1 {
 }
 
 .item {
-	margin: 1vw;
-	width: 45%;
-	height: 25%;
-	border: 4px solid #fff;
+	margin: .5vw 0;
+	width: 18vw;
+	height: 18vw;
+	border: 2px solid #fff;
+}
+
+.billede-1 {
+	background-image: url(../images/stage-1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.billede-2 {
+	background-image: url(../images/stage-2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.billede-3 {
+	background-image: url(../images/stage-3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.billede-4 {
+	background-image: url(../images/stage-4.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.billede-5 {
+	background-image: url(../images/stage-5.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.billede-6 {
+	background-image: url(../images/stage-6.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.billede-7 {
+	background-image: url(../images/stage-7.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.billede-8 {
+	background-image: url(../images/stage-8.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.billede-9 {
+	background-image: url(../images/group-of-people-bw.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.billede-10 {
+	background-image: url(../images/stage-bw-1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.billede-11 {
+	background-image: url(../images/stage-bw-2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.billede-12 {
+	background-image: url(../images/stage-bw-3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.billede-13 {
+	background-image: url(../images/group-of-people-2.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.billede-14 {
+	background-image: url(../images/group-of-people-3.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /* FOOOTER STYLING */
