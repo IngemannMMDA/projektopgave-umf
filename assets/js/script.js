@@ -44,13 +44,15 @@ function getProgramLordagFromWP() {
     xhttp.send();
 }
 
+
+
 function getLineupFromWP() {
     let postOptionsId = 751;
     const xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
-                line_up = JSON.parse(this.responseText);
-                line_up.src = line_up.acf.line_up;
+                lineup = JSON.parse(this.responseText);
+                line_up.src = lineup.acf.line_up;
         }
     }
 
