@@ -72,6 +72,10 @@ nav {
 	justify-content: flex-end;
 }
 
+.navItems4 {
+	background-color: #340348;
+}
+
 .navbar-btns {
 	font-size: 1.4vw;
 	color: #fff;

@@ -72,6 +72,10 @@ nav {
 	justify-content: flex-end;
 }
 
+.navItem1 {
+	background-color: #340348;
+}
+
 .navbar-btns {
 	font-size: 1.4vw;
 	color: #fff;
@@ -110,7 +114,7 @@ main {
 	height: auto;
 	float: left;
 	color: #fff;
-	font-size: 1vw;
+	font-size: 1.3vw;
 }
 
 .tilmelding-image {
@@ -123,7 +127,11 @@ main {
 .tilmeldings-formular {
 	width: 50%;
 	height: auto;
-	margin: 23vw 0 0 0vw;
+	margin: 14vw 0 0 0vw;
+}
+
+fieldset {
+	border-color: #7500A3;
 }
 
 .formular-header {
