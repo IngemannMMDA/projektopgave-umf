@@ -306,7 +306,7 @@ button:active {
 	padding: 1vw 0;
 	
 }
-.læs-mere-p a {
+.læs-mere-p, a {
 	text-decoration: none;
 	color: white;
 }
