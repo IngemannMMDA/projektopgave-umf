@@ -11,12 +11,12 @@ h1, h2, h3 {
 }
 
 a {
-	text-decoration: none;
+    text-decoration: none;
 }
-
 a:visited {
     color:#C87BE7;
 }
+
 html {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
@@ -114,19 +114,13 @@ h1 {
 	color: #C87BE7;
 	text-align: center;
 }
-h2 {
-	color: white;
-	font-size: 2vw;
-	margin: auto;
-	text-align: center;
-	padding: 10vw;
-	font-style: italic;
-}
 
 .programContainer {
 	background: linear-gradient(#00000080, #00000080), url(../images/group-of-people-1.jpg) center center/cover no-repeat;
-	color: white;
-	height: 1000px;
+	grid-template-areas: 'fredag';
+    color: white;
+    height: 1000px;
+   
 }
 
 form {
@@ -151,7 +145,21 @@ input:hover {
 }
 
 
+.fredag {
+	padding: 2px;
+	text-align: center;
+	
+}
 
+#program_fredag {
+    width: 1000px;
+    padding: 2vw;
+}
+/*
+.bands {
+	background-color: violet;
+}
+*/
 /* virker ikke som det skal
 #band_navn {
 	color: white;

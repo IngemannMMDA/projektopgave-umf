@@ -13,10 +13,10 @@ h1, h2, h3 {
 a {
 	text-decoration: none;
 }
-
 a:visited {
     color:#C87BE7;
 }
+
 html {
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
@@ -114,19 +114,13 @@ h1 {
 	color: #C87BE7;
 	text-align: center;
 }
-h2 {
-	color: white;
-	font-size: 2vw;
-	margin: auto;
-	text-align: center;
-	padding: 10vw;
-	font-style: italic;
-}
 
 .programContainer {
 	background: linear-gradient(#00000080, #00000080), url(../images/group-of-people-1.jpg) center center/cover no-repeat;
-	color: white;
-	height: 1000px;
+	display: grid;
+	grid-template-areas: 'lørdag';
+    color: white;
+    
 }
 
 form {
@@ -150,7 +144,20 @@ input:hover {
 	background-color: #340348;
 }
 
+.lordag {
+	grid-area: lørdag;
+	padding: 2px;
+	text-align: center;
+}
 
+#program_lordag {
+	width: 800px;
+	padding: 2vw;
+}
+
+.bands {
+	background-color: violet;
+}
 
 /* virker ikke som det skal
 #band_navn {
