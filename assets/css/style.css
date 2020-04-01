@@ -406,10 +406,12 @@ li h3 {
 
 /* Mobile portrait, 4" to 6.9" screens */
 @media screen and (min-width: 320px) and (max-width: 425px) {
+
+	/* Header */
 	header {
 		display: block;
 		min-width: 320px;
-		max-width: 414px;
+		max-width: 425px;
 		height: 10vw;
 		margin: 0 auto;
 
@@ -437,10 +439,12 @@ li h3 {
 		display: none;
 	}
 
+	/* Main */
+
 	main {
 		display: block;
 		min-width: 320px;
-		max-width: 414px;
+		max-width: 425px;
 		height: auto;
 	}
 
@@ -512,6 +516,8 @@ li h3 {
 		margin: 0 auto 0 auto;
 	}
 
+	/* Footer */
+
 	footer {
 		display: block;
 		text-align: center;
@@ -537,15 +543,5 @@ li h3 {
 
 /* Tablet portrait, 7" to 10" screens */
 @media screen and (min-width: 768px) and (max-width: 834px) {
-
-}
-
-/* Tablet landscape, 7" to 10" screens, but also 12" tablets on portrait */
-@media screen and (min-width: 1024px) and (max-width: 1112px) {
-
-}
-
-/* Laptop & Desktop displays */
-@media screen and (min-width: 1113px) {
 
 }

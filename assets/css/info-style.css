@@ -276,26 +276,123 @@ li h3 {
 }
 
 /* Mobile portrait, 4" to 6.9" screens */
-@media screen {min-width: 320px} and {max-width: 414px} {
+@media screen and (min-width: 320px) and (max-width: 425px) {
 	
-}
+	/* Header */
+	
+	header {
+		display: block;
+		min-width: 320px;
+		max-width: 425px;
+		height: 10vw;
+		margin: 0 auto;
 
-/* Mobile landscape, same, but landscape */
-@media screen {min-width: 568px} and {max-width: 812px} {
+	}
 
+	.navbar-logo {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.navbar-logo-area {
+		display: block;
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.logo-responsive {
+		display: block;
+		min-width: 25%;
+		max-width: 45vw;
+		margin: 0 auto;
+	}
+
+	.navbar-btns {
+		display: none;
+	}
+
+	/* Main */
+
+	main {
+		display: block;
+		min-width: 320px;
+		max-width: 425px;
+		height: auto;
+	}
+
+	.om-umf-box {
+		display: block;
+		width: 100%;
+		margin: 0;
+		padding: 2vw 7vw 0 7vw;
+	}
+
+	.h1-info-umf-box {
+		font-size: 4vw;
+	}
+
+	.p-info-umf-box {
+		font-size: 2.5vw;
+	}
+
+	.img-info-umf-box {
+		display: block;
+		width: 97%;
+		margin: 5vw auto 5vw auto;
+		padding: 0;
+	}
+
+	.informationer-venstre, .informationer-højre {
+		display: block;
+		width: 100%;
+		float: none;
+		margin: 0;
+		padding: 2vw 7vw 0 7vw;
+	}
+
+	.p-informationer {
+		font-size: 2.5vw;
+		padding: 0 0 3vw 0;
+	}
+
+	.h2-informationer {
+		font-size: 3vw;
+	}
+
+	.h3-informationer {
+		font-size: 3vw;
+	}
+
+	iframe {
+		width: 100%;
+		height: 50vw;
+	}
+
+	/* Footer */
+	footer {
+		display: block;
+		text-align: center;
+	}
+
+	.footerBox {
+		font-size: 3vw;
+	}
+
+	li > h3 {
+		font-size: 5vw;
+	}
+
+	.fa-facebook, .fa-instagram {
+		padding: 2vw;
+		font-size: 5vw;
+	}
+
+	.fa-facebook:before, .fa-instagram:before {
+		padding: 0;
+	}
 }
 
 /* Tablet portrait, 7" to 10" screens */
-@media screen {min-width: 768px} and {max-width: 834px} {
-
-}
-
-/* Tablet landscape, 7" to 10" screens, but also 12" tablets on portrait */
-@media screen {min-width: 1024px} and {max-width: 1112px} {
-
-}
-
-/* Laptop & Desktop displays */
-@media screen {min-width: 1200px} {
+@media screen and (min-width: 768px) and (max-width: 834px) {
 
 }
