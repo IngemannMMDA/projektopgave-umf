@@ -15,7 +15,7 @@ a {
 }
 
 h1 a:visited {
-	color: violet;
+	color: #C87BE7;
 	}
 
 html {
@@ -85,6 +85,10 @@ header {
 nav {
 	display: flex;
 	justify-content: flex-end;
+}
+
+.navItem2 {
+	background-color: #340348;
 }
 
 .navbar-btns {
