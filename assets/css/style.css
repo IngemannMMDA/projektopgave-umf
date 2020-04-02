@@ -446,6 +446,7 @@ li h3 {
 		display: block;
 		grid-area: navbar;
 		font-size: 5vw;
+		padding: 2.5vw;
 	}
 
 	
