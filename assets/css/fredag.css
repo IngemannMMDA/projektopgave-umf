@@ -284,35 +284,47 @@ li h3 {
 	
 	/* Header */
 	header {
-		display: block;
-		min-width: 320px;
-		max-width: 425px;
-		height: 10vw;
-		margin: 0 auto;
-
+		display: grid;
+		/* grid-area: logo; */
+		grid-template-areas:
+			'logo'
+			'navbar';
+		width: 100%; 
+		height: 36vw;
+		/* margin: 0; */
 	}
-
-	.navbar-logo {
-		display: block;
-		margin: 0 auto;
+	nav {
+		display: flex;
+		justify-content: center;
+		/* margin-right: 20px; */
+		background: black;
+		/* border-bottom: purple 1px solid; */
+		border-width: thick;
 	}
+	
 
 	.navbar-logo-area {
 		display: block;
-		width: 100%;
-		margin: 0 auto;
+		width: 68%;
+		margin: auto;
+		grid-area: logo;
+		margin-bottom: 10vw;
 	}
 
 	.logo-responsive {
 		display: block;
 		min-width: 25%;
 		max-width: 45vw;
-		margin: 0 auto;
+		margin: auto;
+	}
+	.navbar-btns {
+		display: block;
+		grid-area: navbar;
+		font-size: 5vw;
+		height: 10vw;
 	}
 
-	.navbar-btns {
-		display: none;
-	}
+	
 
 	/* Main */
 
@@ -322,9 +334,33 @@ li h3 {
 		max-width: 425px;
 		height: auto;
 		margin: 0;
-		padding: 2vw 7vw 0 7vw;
+		/* padding: 2vw 7vw 0 7vw; */
 	}
 
+	input {
+		width: 21vw;
+		height: auto;
+		/* margin: auto; */
+		font-size: 14px;
+		padding: 5px 5px;
+	}
+
+	.programContainer {
+		height: 350px;
+	}
+	#program_fredag {
+		width: 360px;
+		padding: 2vw;
+	}
+	
+	h1 {
+		font-size: 4vw;
+	}
+
+	h2 {
+		font-size: 4vw;
+		padding: 9vw;
+	}
 	
 
 	/* Footer */

@@ -276,36 +276,49 @@ li h3 {
 /* Mobile portrait, 4" to 6.9" screens */
 @media screen and (min-width: 320px) and (max-width: 425px) {
 	
+/* Mobile portrait, 4" to 6.9" screens */
+@media screen and (min-width: 320px) and (max-width: 425px) {
+
 	/* Header */
 	header {
-		display: block;
-		min-width: 320px;
-		max-width: 425px;
-		height: 10vw;
-		margin: 0 auto;
-
+		display: grid;
+		/* grid-area: logo; */
+		grid-template-areas:
+			'logo'
+			'navbar';
+		width: 100%; 
+		height: 36vw;
+		/* margin: 0; */
 	}
-
-	.navbar-logo {
-		display: block;
-		margin: 0 auto;
+	nav {
+		display: flex;
+		justify-content: center;
+		/* margin-right: 20px; */
+		background: black;
+		/* border-bottom: purple 1px solid; */
+		border-width: thick;
 	}
+	
 
 	.navbar-logo-area {
 		display: block;
-		width: 100%;
-		margin: 0 auto;
+		width: 68%;
+		margin: auto;
+		grid-area: logo;
+		margin-bottom: 10vw;
 	}
 
 	.logo-responsive {
 		display: block;
 		min-width: 25%;
 		max-width: 45vw;
-		margin: 0 auto;
+		margin: auto;
 	}
-
 	.navbar-btns {
-		display: none;
+		display: block;
+		grid-area: navbar;
+		font-size: 5vw;
+		height: 10vw;
 	}
 
 	/* Main */
@@ -320,9 +333,11 @@ li h3 {
 	}
 
 	input {
-		width: 26vw;
+		width: 21vw;
 		height: auto;
-		padding: 10px 21px;
+		/* margin: auto; */
+		font-size: 14px;
+		padding: 5px 5px;
 	}
 
 	.programContainer {
@@ -330,7 +345,7 @@ li h3 {
 	}
 
 	h1 {
-		font-size: 6vw;
+		font-size: 4vw;
 	}
 
 	h2 {
