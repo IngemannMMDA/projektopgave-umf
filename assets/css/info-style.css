@@ -279,7 +279,7 @@ li h3 {
 @media screen and (min-width: 320px) and (max-width: 425px) {
 	
 	/* Header */
-	
+
 	header {
 		display: block;
 		min-width: 320px;
@@ -394,5 +394,105 @@ li h3 {
 
 /* Tablet portrait, 7" to 10" screens */
 @media screen and (min-width: 768px) and (max-width: 834px) {
+	
+	html, body {
+		min-width: 768px;
+		max-width: 834px;
+		height: auto;
+		margin: 0;
+	}
 
+	/* Header */
+	header {
+		display: block;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	.navbar-logo-area {
+		display: block;
+		width: 25%;
+	}
+
+	.navbar-btns {
+		font-size: 2.3vw;
+	}
+
+	/* Main */
+
+main {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.om-umf-box {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.h1-info-umf-box {
+	font-size: 3.5vw;
+	padding-left: 2vw;
+}
+
+.p-info-umf-box {
+	font-size: 2.15vw;
+	padding: 0 4vw 0 2vw;
+}
+
+.img-info-umf-box {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	padding: 5vw;
+}
+
+.informationer-højre, .informationer-venstre {
+	display: block;
+	width: 100%;
+	margin: 0;
+}
+
+.informationer-højre {
+	margin: 5vw 0 0 0;
+}
+
+.h2-informationer {
+	font-size: 2.3vw;
+	padding: 0 2vw;
+}
+
+.h3-informationer {
+	font-size: 2.3vw;
+	padding: 0 2vw;
+}
+
+.p-informationer {
+	font-size: 2.15vw;
+	padding: 0 2vw 1vw 2vw;
+}
+
+iframe {
+	display: block;
+	width: 95%;
+	height: 50vw;
+	margin: 0 auto 2vw auto;
+}
+
+/* Footer */
+	.footerBox, ul, li {
+		font-size: 1.8vw;
+		text-align: center;
+	}
+
+	.fa-facebook, .fa-instagram {
+		padding: 1vw;
+		font-size: 4vw;
+	}
+
+	.fa-facebook:before, .fa-instagram:before {
+		padding: 0;
+	}
 }
