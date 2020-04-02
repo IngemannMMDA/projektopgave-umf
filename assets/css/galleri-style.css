@@ -410,5 +410,68 @@ li h3 {
 
 /* Tablet portrait, 7" to 10" screens */
 @media screen and (min-width: 768px) and (max-width: 834px) {
+	
+	html, body {
+		min-width: 768px;
+		max-width: 834px;
+		height: auto;
+		margin: 0;
+	}
 
+	/* Header */
+	header {
+		display: block;
+		height: auto;
+		margin: 0 auto;
+	}
+
+	.navbar-logo-area {
+		display: block;
+		width: 25%;
+	}
+
+	.navbar-btns {
+		font-size: 2.3vw;
+	}
+
+	/* Main */
+
+main {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+h1 {
+	font-size: 3.5vw;
+	padding: 1vw 2vw 0 6vw;
+}
+
+.container {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	height: auto;
+}
+
+.item {
+	margin: 0 auto 5vw auto;
+	width: 45vw;
+	height: 45vw;
+}
+
+/* Footer */
+	.footerBox, ul, li {
+		font-size: 1.8vw;
+		text-align: center;
+	}
+
+	.fa-facebook, .fa-instagram {
+		padding: 1vw;
+		font-size: 4vw;
+	}
+
+	.fa-facebook:before, .fa-instagram:before {
+		padding: 0;
+	}
 }
